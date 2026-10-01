@@ -27,4 +27,5 @@ npm run gen      # після змін у content/*.md
 npm run dev
 npm run build
 ```
-Розгортання: GitHub Actions (`.github/workflows/deploy.yml`) публікує `dist/` на GitHub Pages.
+Розгортання: збірка `dist/` публікується у гілку `gh-pages` (Settings → Pages → Source: *Deploy from a branch* → `gh-pages` / root).
+Для автоматичного деплою на кожен push скопіюйте `deploy.yml.example` у `.github/workflows/deploy.yml` (через веб-інтерфейс GitHub або токеном зі scope `workflow`) і оберіть у Pages джерело *GitHub Actions*.
