@@ -7,7 +7,7 @@ export default function Lab05() {
     <article>
       <div className="kicker">Лабораторна робота 5</div>
       <h1>Аномалії та залишковий ресурс (RUL)</h1>
-      <div className="lab-meta"><div><b>Обсяг</b><span dangerouslySetInnerHTML={{__html: "2 академічні години"}} /></div><div><b>Лекція</b><span dangerouslySetInnerHTML={{__html: "5"}} /></div><div><b>Файл</b><span dangerouslySetInnerHTML={{__html: "<code>iiot/analytics.py</code>"}} /></div></div>
+      <div className="lab-meta"><div><b>Лекція</b><span dangerouslySetInnerHTML={{__html: "5"}} /></div><div><b>Файл</b><span dangerouslySetInnerHTML={{__html: "<code>iiot/analytics.py</code>"}} /></div></div>
       <div className="goals"><b>Мета роботи</b><p dangerouslySetInnerHTML={{__html: "Реалізувати прості інтерпретовані методи предиктивного обслуговування та застосувати їх до даних вашого симулятора."}} /></div>
       <h2 dangerouslySetInnerHTML={{__html: "Завдання"}} />
       <p dangerouslySetInnerHTML={{__html: "У <code>iiot/analytics.py</code>:"}} />

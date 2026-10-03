@@ -7,7 +7,7 @@ export default function Lab03() {
     <article>
       <div className="kicker">Лабораторна робота 3</div>
       <h1>Збереження телеметрії: SQLite, агрегація, retention</h1>
-      <div className="lab-meta"><div><b>Обсяг</b><span dangerouslySetInnerHTML={{__html: "2 академічні години"}} /></div><div><b>Лекція</b><span dangerouslySetInnerHTML={{__html: "3"}} /></div><div><b>Файл</b><span dangerouslySetInnerHTML={{__html: "<code>iiot/storage.py</code>"}} /></div></div>
+      <div className="lab-meta"><div><b>Лекція</b><span dangerouslySetInnerHTML={{__html: "3"}} /></div><div><b>Файл</b><span dangerouslySetInnerHTML={{__html: "<code>iiot/storage.py</code>"}} /></div></div>
       <div className="goals"><b>Мета роботи</b><p dangerouslySetInnerHTML={{__html: "Побудувати конвеєр «MQTT → база» із пакетним записом, хвилинною агрегацією та очищенням старих даних."}} /></div>
       <h2 dangerouslySetInnerHTML={{__html: "Завдання"}} />
       <p dangerouslySetInnerHTML={{__html: "У <code>iiot/storage.py</code> реалізуйте (довга схема, див. лекцію 3):"}} />

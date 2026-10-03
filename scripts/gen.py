@@ -134,6 +134,7 @@ def split_sections(md_lines):
 
 def meta_block(meta, lab):
     parts = [p.strip() for p in meta.split(" · ")]
+    parts = [p for p in parts if not re.match(r"Тиждень \d+", p) and "академічні" not in p and not p.startswith("Тривалість")]
     cells = []
     for p in parts:
         if re.match(r"Тиждень \d+", p):

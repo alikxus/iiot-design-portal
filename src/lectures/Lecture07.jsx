@@ -8,7 +8,7 @@ export default function Lecture07() {
     <article>
       <div className="kicker">Лекція 7</div>
       <h1>Розгортання, документація та економіка IIoT-проєкту</h1>
-      <div className="lab-meta"><div><b>Тиждень</b><span dangerouslySetInnerHTML={{__html: "7"}} /></div><div><b>Обсяг</b><span dangerouslySetInnerHTML={{__html: "2 академічні години"}} /></div><div><b>Лабораторна</b><span dangerouslySetInnerHTML={{__html: "інтеграція, Docker Compose, захист проєкту"}} /></div></div>
+      <div className="lab-meta"><div><b>Лабораторна</b><span dangerouslySetInnerHTML={{__html: "інтеграція, Docker Compose, захист проєкту"}} /></div></div>
       <div className="goals"><b>Цілі заняття</b><p dangerouslySetInnerHTML={{__html: "Навчитися пакувати IIoT-рішення в контейнери, конфігурувати його через середовище, документувати та оцінювати вартість володіння."}} /></div>
       <h2 dangerouslySetInnerHTML={{__html: "1. Життєвий цикл IIoT-проєкту"}} />
       <ol><li dangerouslySetInnerHTML={{__html: "Обстеження й вимоги → 2. Архітектура → 3. Прототип на симуляторі → 4. Пілот на одному агрегаті → 5. Масштабування → 6. Експлуатація та супровід."}} /></ol>

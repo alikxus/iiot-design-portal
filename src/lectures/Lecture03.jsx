@@ -8,7 +8,7 @@ export default function Lecture03() {
     <article>
       <div className="kicker">Лекція 3</div>
       <h1>Збереження телеметрії: часові ряди</h1>
-      <div className="lab-meta"><div><b>Тиждень</b><span dangerouslySetInnerHTML={{__html: "3"}} /></div><div><b>Обсяг</b><span dangerouslySetInnerHTML={{__html: "2 академічні години"}} /></div><div><b>Лабораторна</b><span dangerouslySetInnerHTML={{__html: "ingest у SQLite, агрегація, retention"}} /></div></div>
+      <div className="lab-meta"><div><b>Лабораторна</b><span dangerouslySetInnerHTML={{__html: "ingest у SQLite, агрегація, retention"}} /></div></div>
       <div className="goals"><b>Цілі заняття</b><p dangerouslySetInnerHTML={{__html: "Спроєктувати схему зберігання часових рядів, оцінити обсяги і побудувати конвеєр «MQTT → база» з пакетним записом, агрегацією та політикою зберігання."}} /></div>
       <h2 dangerouslySetInnerHTML={{__html: "1. Особливості часових рядів"}} />
       <ul><li dangerouslySetInnerHTML={{__html: "Запис майже завжди <b>append-only</b>, у порядку часу."}} /><li dangerouslySetInnerHTML={{__html: "Читання — <b>діапазонами часу</b> («остання година», «вчора») та агрегатами."}} /><li dangerouslySetInnerHTML={{__html: "Дані <b>старіють</b>: сирі потрібні тижні, агрегати — роки."}} /><li dangerouslySetInnerHTML={{__html: "Обсяги великі й передбачувані → можна оцінити заздалегідь."}} /></ul>

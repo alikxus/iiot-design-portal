@@ -8,7 +8,7 @@ export default function Lecture05() {
     <article>
       <div className="kicker">Лекція 5</div>
       <h1>Цифровий двійник та предиктивне обслуговування</h1>
-      <div className="lab-meta"><div><b>Тиждень</b><span dangerouslySetInnerHTML={{__html: "5"}} /></div><div><b>Обсяг</b><span dangerouslySetInnerHTML={{__html: "2 академічні години"}} /></div><div><b>Лабораторна</b><span dangerouslySetInnerHTML={{__html: "аномалії та оцінка залишкового ресурсу"}} /></div></div>
+      <div className="lab-meta"><div><b>Лабораторна</b><span dangerouslySetInnerHTML={{__html: "аномалії та оцінка залишкового ресурсу"}} /></div></div>
       <div className="goals"><b>Цілі заняття</b><p dangerouslySetInnerHTML={{__html: "Ознайомитися з рівнями цифрового двійника, стратегіями обслуговування та реалізувати прості, інтерпретовані методи виявлення аномалій та оцінки RUL."}} /></div>
       <h2 dangerouslySetInnerHTML={{__html: "1. Стратегії обслуговування"}} />
       <ol><li dangerouslySetInnerHTML={{__html: "<b>Реактивне</b> — ремонт після поломки. Дешево, поки не стається аварія."}} /><li dangerouslySetInnerHTML={{__html: "<b>Планово-попереджувальне</b> — за календарем/напрацюванням. Ремонтуємо те, що ще справне."}} /><li dangerouslySetInnerHTML={{__html: "<b>За станом</b> (condition-based) — за вимірами (вібрація, температура)."}} /><li dangerouslySetInnerHTML={{__html: "<b>Предиктивне</b> — прогнозуємо, <b>коли</b> параметр досягне межі, і ремонтуємо у зручне вікно."}} /></ol>

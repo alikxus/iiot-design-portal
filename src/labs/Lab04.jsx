@@ -7,7 +7,7 @@ export default function Lab04() {
     <article>
       <div className="kicker">Лабораторна робота 4</div>
       <h1>Рушій сповіщень: поріг, гістерезис, debounce</h1>
-      <div className="lab-meta"><div><b>Обсяг</b><span dangerouslySetInnerHTML={{__html: "2 академічні години"}} /></div><div><b>Лекція</b><span dangerouslySetInnerHTML={{__html: "4"}} /></div><div><b>Файл</b><span dangerouslySetInnerHTML={{__html: "<code>iiot/alerts.py</code>"}} /></div></div>
+      <div className="lab-meta"><div><b>Лекція</b><span dangerouslySetInnerHTML={{__html: "4"}} /></div><div><b>Файл</b><span dangerouslySetInnerHTML={{__html: "<code>iiot/alerts.py</code>"}} /></div></div>
       <div className="goals"><b>Мета роботи</b><p dangerouslySetInnerHTML={{__html: "Реалізувати конфігурований рушій правил, який не «дрижить» біля порога, і підключити його до шини."}} /></div>
       <h2 dangerouslySetInnerHTML={{__html: "Завдання"}} />
       <p dangerouslySetInnerHTML={{__html: "У <code>iiot/alerts.py</code>:"}} />

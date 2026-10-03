@@ -7,7 +7,7 @@ export default function Lab02() {
     <article>
       <div className="kicker">Лабораторна робота 2</div>
       <h1>Edge-шлюз: MQTT, LWT, буферизація</h1>
-      <div className="lab-meta"><div><b>Обсяг</b><span dangerouslySetInnerHTML={{__html: "2 академічні години"}} /></div><div><b>Лекція</b><span dangerouslySetInnerHTML={{__html: "2"}} /></div><div><b>Файл</b><span dangerouslySetInnerHTML={{__html: "<code>iiot/gateway.py</code>"}} /></div></div>
+      <div className="lab-meta"><div><b>Лекція</b><span dangerouslySetInnerHTML={{__html: "2"}} /></div><div><b>Файл</b><span dangerouslySetInnerHTML={{__html: "<code>iiot/gateway.py</code>"}} /></div></div>
       <div className="goals"><b>Мета роботи</b><p dangerouslySetInnerHTML={{__html: "Реалізувати шлюз, що публікує телеметрію симулятора в MQTT і не втрачає дані при розриві зв'язку."}} /></div>
       <h2 dangerouslySetInnerHTML={{__html: "Підготовка"}} />
       <p dangerouslySetInnerHTML={{__html: "Встановіть залежності <code>pip install -r requirements.txt</code> і запустіть брокер."}} />

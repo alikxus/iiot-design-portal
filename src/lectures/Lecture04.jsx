@@ -8,7 +8,7 @@ export default function Lecture04() {
     <article>
       <div className="kicker">Лекція 4</div>
       <h1>Моніторинг, сповіщення та візуалізація</h1>
-      <div className="lab-meta"><div><b>Тиждень</b><span dangerouslySetInnerHTML={{__html: "4"}} /></div><div><b>Обсяг</b><span dangerouslySetInnerHTML={{__html: "2 академічні години"}} /></div><div><b>Лабораторна</b><span dangerouslySetInnerHTML={{__html: "рушій сповіщень з гістерезисом і debounce"}} /></div></div>
+      <div className="lab-meta"><div><b>Лабораторна</b><span dangerouslySetInnerHTML={{__html: "рушій сповіщень з гістерезисом і debounce"}} /></div></div>
       <div className="goals"><b>Цілі заняття</b><p dangerouslySetInnerHTML={{__html: "Навчитися проєктувати сповіщення так, щоб вони були корисними, а не шумними, та реалізувати конфігурований рушій правил."}} /></div>
       <h2 dangerouslySetInnerHTML={{__html: "1. Від даних до рішень"}} />
       <p dangerouslySetInnerHTML={{__html: "Дашборд відповідає на питання «що відбувається?», сповіщення — «що потребує дії <b>зараз</b>?». Погані сповіщення гірші за їх відсутність: оператори перестають на них реагувати (<i>alarm fatigue</i>)."}} />

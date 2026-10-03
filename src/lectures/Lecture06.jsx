@@ -8,7 +8,7 @@ export default function Lecture06() {
     <article>
       <div className="kicker">Лекція 6</div>
       <h1>Кібербезпека та надійність IIoT</h1>
-      <div className="lab-meta"><div><b>Тиждень</b><span dangerouslySetInnerHTML={{__html: "6"}} /></div><div><b>Обсяг</b><span dangerouslySetInnerHTML={{__html: "2 академічні години"}} /></div><div><b>Лабораторна</b><span dangerouslySetInnerHTML={{__html: "автентифікація, ACL, підпис повідомлень, reconnect"}} /></div></div>
+      <div className="lab-meta"><div><b>Лабораторна</b><span dangerouslySetInnerHTML={{__html: "автентифікація, ACL, підпис повідомлень, reconnect"}} /></div></div>
       <div className="goals"><b>Цілі заняття</b><p dangerouslySetInnerHTML={{__html: "Навчитися будувати модель загроз для IIoT, застосовувати базові механізми захисту (автентифікація, авторизація, шифрування, цілісність) та проєктувати відмовостійкі клієнти."}} /></div>
       <h2 dangerouslySetInnerHTML={{__html: "1. Чому IIoT вразливий"}} />
       <ul><li dangerouslySetInnerHTML={{__html: "Довгий життєвий цикл обладнання → застаріле ПЗ без оновлень."}} /><li dangerouslySetInnerHTML={{__html: "Раніше «ізольовані» мережі отримали вихід у IT/хмару."}} /><li dangerouslySetInnerHTML={{__html: "Пріоритет доступності над конфіденційністю: не можна просто «перезавантажити»."}} /><li dangerouslySetInnerHTML={{__html: "Наслідки — фізичні (аварії, екологія, безпека людей)."}} /></ul>

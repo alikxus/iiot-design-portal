@@ -7,7 +7,7 @@ export default function Lab01() {
     <article>
       <div className="kicker">Лабораторна робота 1</div>
       <h1>ТЗ та симулятор насосного агрегату</h1>
-      <div className="lab-meta"><div><b>Обсяг</b><span dangerouslySetInnerHTML={{__html: "2 академічні години"}} /></div><div><b>Лекція</b><span dangerouslySetInnerHTML={{__html: "1"}} /></div><div><b>Файли</b><span dangerouslySetInnerHTML={{__html: "<code>iiot/sim.py</code>, <code>docs/tz.md</code>"}} /></div></div>
+      <div className="lab-meta"><div><b>Лекція</b><span dangerouslySetInnerHTML={{__html: "1"}} /></div><div><b>Файли</b><span dangerouslySetInnerHTML={{__html: "<code>iiot/sim.py</code>, <code>docs/tz.md</code>"}} /></div></div>
       <div className="goals"><b>Мета роботи</b><p dangerouslySetInnerHTML={{__html: "Описати вимоги до IIoT-системи моніторингу насосної станції та реалізувати симулятор агрегату, який буде джерелом даних для всього курсу."}} /></div>
       <h2 dangerouslySetInnerHTML={{__html: "Частина A. Технічне завдання (≈ 30 хв)"}} />
       <p dangerouslySetInnerHTML={{__html: "Створіть <code>docs/tz.md</code> (1–2 сторінки) за шаблоном із лекції 1: мета, межі системи, 4–6 FR, 4–6 NFR (<b>кожна вимога вимірювана</b>), інтерфейси, критерії приймання. Додайте схему архітектури (текстова чи зображення) із шарами edge / сервер."}} />
